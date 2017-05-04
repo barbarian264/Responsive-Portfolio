@@ -1,0 +1,286 @@
+
+h1 {
+  padding: 20px 8px;
+  background-color: darkcyan;
+  color: white;
+  font-style: bold; 	
+  margin:auto;
+}
+
+h2 {
+  margin-left:5%;
+  text-align: left;
+  color: darkcyan;
+  border-bottom-style:solid;
+  border-bottom-color: grey;
+  padding-bottom:15px;
+  padding-right: 1px;
+}
+
+.header {
+  clear: both;
+
+}
+
+
+.Bigabout {
+  clear: both;
+  background-image: url("../images/ep_naturalwhite.png");
+  border-top-style:solid;
+  border-top-color:grey;
+  border-bottom-style:solid;
+  border-bottom-width: 5px;
+  border-bottom-color:darkcyan;
+  margin-top:50px;
+  padding-bottom: 40px;
+ 
+  
+}
+
+.menu, 
+.name    {
+	margin-left:9%;
+  float: left;
+}
+
+.name {
+
+	width: 15%;
+}
+
+.menu {
+
+    margin-top: 2%;
+    float: left;
+    color: grey;
+    margin-left: 30%;
+    
+}
+
+#aboutme {
+
+	width: 48%;
+  display: inline-block;
+  color:  #696969;
+  font-weight:bold;
+}
+
+#bioimage {
+
+  margin-left: 6%;
+  display: inline-block;
+
+}
+
+#rect {
+
+  margin-left:7%;
+  width: 40%;
+  height:70%;
+  background: white;
+  border-color: lightgrey;
+  margin-top: 2%;
+  margin-bottom:2%;
+  display: inline-block;
+}
+
+#line {
+
+  margin-top: 1%;
+  width: 10%;
+  height: 8%;
+  background: grey;
+}
+
+.contactme {
+  
+  background:white;
+  border-color: lightgrey;
+  width: 210px;
+  height: 135px;
+  float:right;
+  margin-right: 30%;
+  margin-top: 2%;
+}
+
+.connect {
+
+   text-align:center;
+   color: darkcyan;
+   font-size: 20px;
+   font-weight:bold;
+}
+
+.images {
+
+      text-align:center;
+}
+
+.mensaje {
+
+    width:70%;
+    height:100px;
+}
+
+.soccerpic {
+    position:relative;
+    margin-left:15%;
+}
+
+.soccertext {
+
+    position:absolute;
+    top:278px;
+    left:9%;
+    padding: 8px 45px;
+  
+}
+
+.soccerdiv {
+   
+    float:left;
+
+}
+
+.headphonespic {
+
+    position:relative;
+    margin-left: 15%;
+}
+
+.headphonetext {
+
+   position:absolute;
+   left: 25%;
+   top:278px;
+   padding: 8px 16px;
+}
+
+.nightlifediv {
+   
+    float:left;
+
+}
+
+.nightlifepic {
+
+    position:relative;
+    margin-top:5%;
+    margin-left: 15%;
+
+}
+
+.nightlifetext {
+
+   position:absolute;
+   left: 9%;
+   top:430px;
+   padding: 8px 33px;
+}
+
+
+.citypic {
+
+    position:relative;
+    margin-left: 15%;
+    margin-top:2%;
+    margin-bottom: 3%;
+
+}
+
+.citytext {
+
+   position:absolute;
+   left: 25%;
+   top:430px;
+   padding: 8px 58px;
+}
+
+
+form{
+   margin-left:7%;
+   padding: 10px 0;
+}
+
+footer {
+  position: relative;
+  background: darkgray;
+  padding:15px 0;
+  text-align: center;
+  color:lightgrey;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    body{
+    background-color: lightgrey;
+    }
+
+    .menu {
+
+      margin-top: -8%;
+      margin-left: 55%;
+    }
+
+    .contactme {
+      width:135px;
+      height:213px;
+      margin-right:18%;
+    }
+
+    .nightlifediv {
+      display: block;
+
+    }
+
+    .soccerdiv {
+      display: block;
+    }
+
+    .headphonetext {
+
+      margin-top:180px;
+      z-index:1;
+    }
+
+    .nightlifetext {
+      margin-top: 150px;
+    }
+
+    .citytext {
+
+      margin-top: 280px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+    background-color: lightgrey;
+    }
+
+    .menu,
+    form,
+    .Bigabout {
+
+      width:100%;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    body{
+    background-color: lightgrey;
+    }
+
+    .menu,
+    form,
+    .Bigabout {
+
+      width:100%;
+    }
+
+}
